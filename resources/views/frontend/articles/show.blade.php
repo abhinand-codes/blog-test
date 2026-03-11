@@ -11,7 +11,7 @@
     </div>
 
     <hr>
-    <h3>Comments ({{ $article->comments->count() }})</h3>
+    <h3>Comments</h3>
 
     @forelse($article->comments as $comment)
         @include('frontend.articles.partials.comment', [
